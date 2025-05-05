@@ -6,10 +6,10 @@ char *str2 = " ma kota. ";
 char *str3 = "";
 
 int combine(char *result) {
-    // Najpierw kopiujesz pierwszy łańcuch
+    
     strcpy(result, str1);
 
-    // Potem dołączasz drugi i trzeci
+    
     strcat(result, str2);
     strcat(result, str3);
 
@@ -17,12 +17,12 @@ int combine(char *result) {
 }
 
 int main() {
-    char result[100];  // Zmienna na wynik połączenia
+    char result[100];  
 
-    // Łączenie łańcuchów
+    
     combine(result);
 
-    // Wyświetlanie połączonego wyniku
+    
     printf("Polaczony tekst: %s\n", result);
 
     return 0;
